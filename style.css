@@ -1,7 +1,7 @@
 :root {
-  --bg: #f4f1ea;
-  --text: #1a1a1a;
-  --accent: #d9480f;
+  --bg: #000000;
+  --text: #FFFFFF;
+  --accent: #FF6600;
 }
 
 body {
