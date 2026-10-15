@@ -1,0 +1,21 @@
+:root {
+  --bg: #f4f1ea;
+  --text: #1a1a1a;
+  --accent: #d9480f;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.project {
+  border-top: 2px solid var(--text);
+  padding: 1rem 0;
+}
+
+.project h2 { color: var(--accent); }
