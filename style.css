@@ -70,6 +70,10 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 }
 .site-header a { color: var(--text); text-decoration: none; }
 .site-header a:hover { color: var(--accent-text); }
+.site-header > a {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.25rem;
+}
 
 /* ---------- Landing page ---------- */
 
