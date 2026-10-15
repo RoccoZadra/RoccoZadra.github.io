@@ -3,26 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects | Your Name</title>
+  <title>Projects | Rocco Zadra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <header>
-    <a href="/">← Home</a>
-    <h1>Projects</h1>
+  <header class="site-header">
+    <a href="/">Rocco Zadra</a>
+    <nav><a href="/projects/">Projects</a></nav>
   </header>
 
-  <main class="grid">
-    <a class="card" href="/projects/gearbox/">
-      <img src="/images/gearbox-thumb.jpg" alt="Gearbox assembly">
-      <h2>Ex1</h2>
-      <p>Ex1P</p>
-    </a>
-    <a class="card" href="/projects/robot-arm/">
-      <img src="/images/arm-thumb.jpg" alt="Robot arm">
-      <h2>Ex2</h2>
-      <p>Ex2p</p>
-    </a>
+  <main>
+    <h1 class="page-title">Projects</h1>
+
+    <div class="grid">
+
+      <!-- One card per project. Copy this block to add another. -->
+      <a class="card" href="/projects/sample-project/">
+        <!-- Placeholder box. To use a real image, replace this line with:
+             <img class="thumb" src="/images/sample-thumb.jpg" alt="Describe the image"> -->
+        <span class="thumb placeholder"></span>
+        <h2>Sample project</h2>
+        <p>One sentence on what it is and what it had to do.</p>
+      </a>
+
+      <a class="card" href="/projects/sample-project/">
+        <span class="thumb placeholder"></span>
+        <h2>Another project</h2>
+        <p>One sentence on what it is and what it had to do.</p>
+      </a>
+
+      <a class="card" href="/projects/sample-project/">
+        <span class="thumb placeholder"></span>
+        <h2>A third project</h2>
+        <p>One sentence on what it is and what it had to do.</p>
+      </a>
+
+    </div>
   </main>
 </body>
 </html>
